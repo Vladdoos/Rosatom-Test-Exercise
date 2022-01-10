@@ -48,9 +48,9 @@ export default {
     }
   },
   computed: {
-    sortedUsers() {
-      return [...this.childUser].sort((a, b) => a.name.localeCompare(b.name));
-    },
+    sortedUsers () {
+      return [...this.childUser].sort((a, b) => a.name.localeCompare(b.name))
+    }
   },
   methods: {
     // Получение данных о пользователях из рекурсии и передача в родительский компонент

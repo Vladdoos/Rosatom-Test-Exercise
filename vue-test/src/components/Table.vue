@@ -70,9 +70,9 @@ export default {
     }
   },
   computed: {
-    sortedUsers() {
-      return [...this.users].sort((a, b) => a.name.localeCompare(b.name));
-    },
+    sortedUsers () {
+      return [...this.users].sort((a, b) => a.name.localeCompare(b.name))
+    }
   },
   methods: {
     // Показать форму
@@ -124,7 +124,6 @@ export default {
       })
       this.hideUser()
       this.childUser.showTableList = true
-
     }
   }
 }
